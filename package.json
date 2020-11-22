@@ -1,0 +1,30 @@
+{
+  "name": "dynpyextract",
+  "version": "0.0.1",
+  "description": "Extract Python code from Dynamo files",
+  "main": "dynpyextract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dynpyextract.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infeeeee/dynpyextract.git"
+  },
+  "keywords": [
+    "dynamo",
+    "python"
+  ],
+  "author": "infeeeee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/infeeeee/dynpyextract/issues"
+  },
+  "homepage": "https://github.com/infeeeee/dynpyextract#readme",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "meow": "^8.0.0",
+    "sanitize-filename": "^1.6.3",
+    "yargs": "^16.1.1"
+  }
+}
